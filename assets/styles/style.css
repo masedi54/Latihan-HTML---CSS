@@ -14,56 +14,65 @@ body {
 
 header {
   width: 100%;
-  background-color: #404146;
+  background-color: #FFE6A7;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 0 2rem;
-  height: 5rem;
-  color: #fff;
+  height: 8rem;
+  
 }
 
-header .header-logo {
+/*header .header-logo {
   font-size: 1rem;
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
+
+}*/
+
+
+.logo{
+  margin-left:5px;
+float:left;
+  width: 90px;
 }
 
 header .header-logo h1 a {
+  
+  font-family: "Lucida Console", "Courier New", monospace;
   text-decoration: none;
-  color: #fff;
-  transition: all 0.5s ease;
+  color: #99582A;
+
 }
 
-header .header-logo h1 a:hover {
-  font-size: 2.2rem;
-  font-weight: 700;
-  color: #f1c40f;
-}
 
-header .header-nav ul {
+header .header-right ul {
   list-style: none;
   margin-left: 2rem;
+  
 }
 
-header .header-nav ul li {
+header .header-right ul li {
   margin-left: 1rem;
   display: inline;
   list-style-type: none;
+  
 }
 
-header .header-nav li a {
+header .header-right li a {
   text-decoration: none;
   color: #fff;
   font-size: 1rem;
   font-weight: 500;
   letter-spacing: 1px;
   transition: all 0.5s ease;
+  color:#6F1D1B;
+  font-size:25px;
+
 }
 
-header .header-nav li a:hover {
-  color: #f1c40f;
+header .header-right li a:hover {
+  color: #BB9457;
   font-size: 1.2rem;
   font-weight: 700;
 }
@@ -257,11 +266,13 @@ header .bi {
 
 footer {
   width: 100%;
-  background-color: #404146;
-  color: #fff;
+  background-color: #BB9457;
   display: flex;
   justify-content: space-between;
-  padding: 2rem;
+  padding: 1rem;
+  
+  text-decoration: none;
+  
 }
 
 footer .footer-logo {
@@ -275,13 +286,10 @@ footer .footer-logo h1 a {
   text-decoration: none;
   color: #fff;
   transition: all 0.5s ease;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
-footer .footer-logo h1 a:hover {
-  font-size: 2.2rem;
-  font-weight: 700;
-  color: #f1c40f;
-}
+
 
 footer .footer-nav ul {
   margin-left: 2rem;
